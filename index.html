@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartz - Beat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="HzBeat"> HzBeat</li>
+            <div class="social">
+                <ul>
+                    <a href="mailto:bhuyandipam@gmail.com" target="_blank"><i class="fas fa-2x fa-envelope"></i></a>
+                    <a href="https://github.com/DipamBhuyan" target="_blank"><i class="fab fa-2x fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dipam-bhuyan/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+                </ul>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of my playlists</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Mood - 24KGoldn</span>
+                    <span class="songlistplay"><span class="timestamp">02:21 <i id="0" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Roxanne - Arizona Zarvis</span>
+                    <span class="songlistplay"><span class="timestamp">02:50 <i id="1" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Intention - Justin Beiber</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="2" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">High Hopes - Panic! At The Disco</span>
+                    <span class="songlistplay"><span class="timestamp">03:16 <i id="3" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Rockstar - Post Malone</span>
+                    <span class="songlistplay"><span class="timestamp">04:01 <i id="4" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Death Bed - Powfu</span>
+                    <span class="songlistplay"><span class="timestamp">02:53 <i id="5" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Treat You Better - Shawn Mendes</span>
+                    <span class="songlistplay"><span class="timestamp">04:16 <i id="6" class="far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8">
+                    <span class="songName">SAD! - XXXTENTACION</span>
+                    <span class="songlistplay"><span class="timestamp">02:46 <i id="7" class="far fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <div class="credits">
+        
+    </div>
+    <div class="footer">
+        <h2>&copy2021 Heartz - Beat Created by Dipam Bhuyan</h2>
+    </div>
+    <script src="https://kit.fontawesome.com/1f80064ef3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
